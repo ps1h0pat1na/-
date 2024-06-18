@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Большой Питон Дениски</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <h1>Большой Питон Дениски</h1>
+        <canvas id="gameCanvas"></canvas>
+        <div id="scoreBoard">Счет: 0</div>
+        <input type="text" id="playerName" placeholder="Введите ваше имя">
+        <div id="difficulty">
+            <label>
+                <input type="radio" name="difficulty" value="easy" checked> Легкий
+            </label>
+            <label>
+                <input type="radio" name="difficulty" value="medium"> Средний
+            </label>
+            <label>
+                <input type="radio" name="difficulty" value="hard"> Тяжелый
+            </label>
+        </div>
+        <button id="startGame">Старт</button>
+        <button id="showDatabase">Показать результаты</button>
+        <button id="resetDatabase">Сбросить результаты</button>
+        <div id="databaseDisplay"></div>
+        <div id="countdownTimer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
